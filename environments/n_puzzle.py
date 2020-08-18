@@ -90,7 +90,28 @@ class NPuzzle(Environment):
         return len(self.moves)
 
     def get_nnet_model(self) -> nn.Module:
-        pass
+        # NN architecture
+        input_size = 9  # dimension of 8-puzzle state
+        hidden_layer_size = 1000
+        output_size = 1  # dimension of output (predicting a singular value, cost-to-go)
+
+        # Define neural network (here just a simple single-hidden-layer MLP)
+        class DNN(nn.Module):
+
+            def __init__(self, D_in, H, D_out):
+                super(DNN, self).__init__()
+
+                self.fc1 = nn.Linear(D_in, H)
+                self.relu = nn.ReLU()
+                self.fc2 = nn.Linear(H, D_out)
+
+            def forward(self, x):
+                x = self.fc1(x.float())
+                x = self.relu(x)
+                return self.fc2(x)
+
+        return DNN(input_size, hidden_layer_size, output_size)
+
 
     def generate_states(self, num_states: int, backwards_range: Tuple[int, int]) -> Tuple[List[NPuzzleState],
                                                                                           List[int]]:
