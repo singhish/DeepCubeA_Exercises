@@ -2,137 +2,137 @@ Preparing Data
 
 Training DNN
 
-Itr: 0 loss: 387.86758 targ_ctg: 15.65 nnet_ctg: -1.81 Time Elapsed: 0.02
-Itr: 100 loss: 28.53878 targ_ctg: 17.01 nnet_ctg: 17.07 Time Elapsed: 0.28
-Itr: 200 loss: 20.72828 targ_ctg: 15.99 nnet_ctg: 15.83 Time Elapsed: 0.5
-Itr: 300 loss: 15.50337 targ_ctg: 15.56 nnet_ctg: 15.57 Time Elapsed: 0.75
-Itr: 400 loss: 10.36654 targ_ctg: 14.51 nnet_ctg: 14.31 Time Elapsed: 1.0
-Itr: 500 loss: 13.177 targ_ctg: 14.35 nnet_ctg: 14.46 Time Elapsed: 1.23
-Itr: 600 loss: 12.39197 targ_ctg: 16.59 nnet_ctg: 16.45 Time Elapsed: 1.47
-Itr: 700 loss: 10.91297 targ_ctg: 15.49 nnet_ctg: 15.29 Time Elapsed: 1.71
-Itr: 800 loss: 11.92901 targ_ctg: 14.32 nnet_ctg: 14.42 Time Elapsed: 1.96
-Itr: 900 loss: 8.22155 targ_ctg: 13.74 nnet_ctg: 13.71 Time Elapsed: 2.19
-Itr: 1000 loss: 7.15573 targ_ctg: 14.67 nnet_ctg: 14.6 Time Elapsed: 2.43
-Itr: 1100 loss: 4.43307 targ_ctg: 15.18 nnet_ctg: 15.19 Time Elapsed: 2.66
-Itr: 1200 loss: 6.57795 targ_ctg: 15.12 nnet_ctg: 15.22 Time Elapsed: 2.91
-Itr: 1300 loss: 8.60436 targ_ctg: 16.08 nnet_ctg: 15.99 Time Elapsed: 3.15
-Itr: 1400 loss: 7.01932 targ_ctg: 15.64 nnet_ctg: 15.6 Time Elapsed: 3.39
-Itr: 1500 loss: 7.71007 targ_ctg: 14.84 nnet_ctg: 14.66 Time Elapsed: 3.64
-Itr: 1600 loss: 8.15463 targ_ctg: 15.56 nnet_ctg: 15.62 Time Elapsed: 3.89
-Itr: 1700 loss: 5.42298 targ_ctg: 15.0 nnet_ctg: 15.15 Time Elapsed: 4.14
-Itr: 1800 loss: 7.66642 targ_ctg: 16.76 nnet_ctg: 16.82 Time Elapsed: 4.39
-Itr: 1900 loss: 4.54645 targ_ctg: 14.47 nnet_ctg: 14.51 Time Elapsed: 4.65
-Itr: 2000 loss: 5.99908 targ_ctg: 14.86 nnet_ctg: 14.85 Time Elapsed: 4.9
-Itr: 2100 loss: 8.45977 targ_ctg: 14.6 nnet_ctg: 14.56 Time Elapsed: 5.16
-Itr: 2200 loss: 9.57001 targ_ctg: 15.81 nnet_ctg: 15.78 Time Elapsed: 5.42
-Itr: 2300 loss: 5.53163 targ_ctg: 15.99 nnet_ctg: 16.0 Time Elapsed: 5.68
-Itr: 2400 loss: 6.18093 targ_ctg: 15.41 nnet_ctg: 15.14 Time Elapsed: 5.93
-Itr: 2500 loss: 5.2384 targ_ctg: 15.13 nnet_ctg: 14.96 Time Elapsed: 6.19
-Itr: 2600 loss: 8.03387 targ_ctg: 14.66 nnet_ctg: 14.84 Time Elapsed: 6.45
-Itr: 2700 loss: 8.9376 targ_ctg: 14.81 nnet_ctg: 14.97 Time Elapsed: 6.71
-Itr: 2800 loss: 3.59447 targ_ctg: 14.37 nnet_ctg: 14.34 Time Elapsed: 7.03
-Itr: 2900 loss: 8.33204 targ_ctg: 15.95 nnet_ctg: 15.49 Time Elapsed: 7.29
-Itr: 3000 loss: 5.7589 targ_ctg: 15.23 nnet_ctg: 15.14 Time Elapsed: 7.55
-Itr: 3100 loss: 5.1533 targ_ctg: 15.89 nnet_ctg: 16.0 Time Elapsed: 7.82
-Itr: 3200 loss: 3.61223 targ_ctg: 15.13 nnet_ctg: 15.09 Time Elapsed: 8.08
-Itr: 3300 loss: 4.60507 targ_ctg: 14.91 nnet_ctg: 14.85 Time Elapsed: 8.35
-Itr: 3400 loss: 2.57954 targ_ctg: 14.81 nnet_ctg: 14.74 Time Elapsed: 8.61
-Itr: 3500 loss: 5.81834 targ_ctg: 16.53 nnet_ctg: 16.43 Time Elapsed: 8.87
-Itr: 3600 loss: 5.26948 targ_ctg: 15.17 nnet_ctg: 15.21 Time Elapsed: 9.13
-Itr: 3700 loss: 3.70195 targ_ctg: 14.67 nnet_ctg: 14.56 Time Elapsed: 9.39
-Itr: 3800 loss: 5.26273 targ_ctg: 16.38 nnet_ctg: 16.5 Time Elapsed: 9.66
-Itr: 3900 loss: 7.35727 targ_ctg: 14.86 nnet_ctg: 14.82 Time Elapsed: 9.92
-Itr: 4000 loss: 4.94705 targ_ctg: 16.29 nnet_ctg: 16.44 Time Elapsed: 10.18
-Itr: 4100 loss: 3.13214 targ_ctg: 14.46 nnet_ctg: 14.56 Time Elapsed: 10.43
-Itr: 4200 loss: 5.96115 targ_ctg: 14.8 nnet_ctg: 14.59 Time Elapsed: 10.68
-Itr: 4300 loss: 4.46212 targ_ctg: 16.62 nnet_ctg: 16.63 Time Elapsed: 10.93
-Itr: 4400 loss: 4.2256 targ_ctg: 16.38 nnet_ctg: 15.92 Time Elapsed: 11.17
-Itr: 4500 loss: 7.1225 targ_ctg: 15.34 nnet_ctg: 15.01 Time Elapsed: 11.42
-Itr: 4600 loss: 2.27847 targ_ctg: 16.18 nnet_ctg: 16.3 Time Elapsed: 11.68
-Itr: 4700 loss: 2.3716 targ_ctg: 15.46 nnet_ctg: 15.46 Time Elapsed: 11.94
-Itr: 4800 loss: 4.66957 targ_ctg: 15.8 nnet_ctg: 15.93 Time Elapsed: 12.2
-Itr: 4900 loss: 5.72372 targ_ctg: 15.13 nnet_ctg: 14.79 Time Elapsed: 12.47
-Itr: 5000 loss: 3.77493 targ_ctg: 14.63 nnet_ctg: 14.78 Time Elapsed: 12.73
-Itr: 5100 loss: 4.56245 targ_ctg: 14.39 nnet_ctg: 14.53 Time Elapsed: 13.0
-Itr: 5200 loss: 5.95133 targ_ctg: 14.98 nnet_ctg: 14.85 Time Elapsed: 13.25
-Itr: 5300 loss: 3.32217 targ_ctg: 15.28 nnet_ctg: 15.67 Time Elapsed: 13.52
-Itr: 5400 loss: 4.75392 targ_ctg: 13.59 nnet_ctg: 13.78 Time Elapsed: 13.79
-Itr: 5500 loss: 3.06846 targ_ctg: 15.89 nnet_ctg: 15.96 Time Elapsed: 14.07
-Itr: 5600 loss: 3.44182 targ_ctg: 16.36 nnet_ctg: 16.35 Time Elapsed: 14.34
-Itr: 5700 loss: 1.80262 targ_ctg: 17.95 nnet_ctg: 17.9 Time Elapsed: 14.61
-Itr: 5800 loss: 2.67662 targ_ctg: 15.06 nnet_ctg: 15.1 Time Elapsed: 14.88
-Itr: 5900 loss: 2.80825 targ_ctg: 15.77 nnet_ctg: 15.81 Time Elapsed: 15.14
-Itr: 6000 loss: 6.40073 targ_ctg: 16.01 nnet_ctg: 16.4 Time Elapsed: 15.41
-Itr: 6100 loss: 4.76406 targ_ctg: 16.55 nnet_ctg: 16.55 Time Elapsed: 15.69
-Itr: 6200 loss: 5.42033 targ_ctg: 15.61 nnet_ctg: 15.76 Time Elapsed: 15.95
-Itr: 6300 loss: 6.20321 targ_ctg: 16.31 nnet_ctg: 16.53 Time Elapsed: 16.2
-Itr: 6400 loss: 5.23736 targ_ctg: 17.35 nnet_ctg: 17.31 Time Elapsed: 16.45
-Itr: 6500 loss: 3.59607 targ_ctg: 15.23 nnet_ctg: 15.37 Time Elapsed: 16.71
-Itr: 6600 loss: 3.81892 targ_ctg: 15.28 nnet_ctg: 15.24 Time Elapsed: 16.97
-Itr: 6700 loss: 2.30652 targ_ctg: 15.03 nnet_ctg: 14.9 Time Elapsed: 17.23
-Itr: 6800 loss: 2.65539 targ_ctg: 15.94 nnet_ctg: 15.95 Time Elapsed: 17.49
-Itr: 6900 loss: 5.22436 targ_ctg: 16.48 nnet_ctg: 16.01 Time Elapsed: 17.76
-Itr: 7000 loss: 2.55468 targ_ctg: 14.98 nnet_ctg: 14.89 Time Elapsed: 18.04
-Itr: 7100 loss: 2.62861 targ_ctg: 15.69 nnet_ctg: 15.7 Time Elapsed: 18.31
-Itr: 7200 loss: 4.12191 targ_ctg: 15.36 nnet_ctg: 15.51 Time Elapsed: 18.57
-Itr: 7300 loss: 3.26157 targ_ctg: 17.22 nnet_ctg: 17.2 Time Elapsed: 18.84
-Itr: 7400 loss: 5.15717 targ_ctg: 14.72 nnet_ctg: 14.57 Time Elapsed: 19.11
-Itr: 7500 loss: 6.36093 targ_ctg: 17.27 nnet_ctg: 16.93 Time Elapsed: 19.38
-Itr: 7600 loss: 3.38079 targ_ctg: 16.37 nnet_ctg: 16.46 Time Elapsed: 19.65
-Itr: 7700 loss: 4.9863 targ_ctg: 15.48 nnet_ctg: 15.57 Time Elapsed: 19.92
-Itr: 7800 loss: 2.23003 targ_ctg: 14.8 nnet_ctg: 14.8 Time Elapsed: 20.19
-Itr: 7900 loss: 2.91367 targ_ctg: 13.37 nnet_ctg: 13.36 Time Elapsed: 20.45
-Itr: 8000 loss: 5.23323 targ_ctg: 16.06 nnet_ctg: 15.84 Time Elapsed: 20.71
-Itr: 8100 loss: 6.33937 targ_ctg: 16.69 nnet_ctg: 16.82 Time Elapsed: 20.97
-Itr: 8200 loss: 4.59129 targ_ctg: 15.9 nnet_ctg: 15.98 Time Elapsed: 21.23
-Itr: 8300 loss: 3.67235 targ_ctg: 14.35 nnet_ctg: 14.39 Time Elapsed: 21.49
-Itr: 8400 loss: 3.86166 targ_ctg: 15.98 nnet_ctg: 16.05 Time Elapsed: 21.78
-Itr: 8500 loss: 4.77308 targ_ctg: 16.13 nnet_ctg: 16.37 Time Elapsed: 22.05
-Itr: 8600 loss: 3.06019 targ_ctg: 16.02 nnet_ctg: 15.96 Time Elapsed: 22.34
-Itr: 8700 loss: 3.62239 targ_ctg: 16.49 nnet_ctg: 16.67 Time Elapsed: 22.64
-Itr: 8800 loss: 4.98989 targ_ctg: 14.54 nnet_ctg: 14.52 Time Elapsed: 22.95
-Itr: 8900 loss: 3.45103 targ_ctg: 15.07 nnet_ctg: 15.12 Time Elapsed: 23.25
-Itr: 9000 loss: 2.27291 targ_ctg: 15.73 nnet_ctg: 15.57 Time Elapsed: 23.44
-Itr: 9100 loss: 2.75887 targ_ctg: 15.26 nnet_ctg: 15.42 Time Elapsed: 23.64
-Itr: 9200 loss: 3.78214 targ_ctg: 14.7 nnet_ctg: 14.44 Time Elapsed: 23.9
-Itr: 9300 loss: 3.0104 targ_ctg: 15.1 nnet_ctg: 15.27 Time Elapsed: 24.3
-Itr: 9400 loss: 1.91388 targ_ctg: 15.66 nnet_ctg: 15.68 Time Elapsed: 24.59
-Itr: 9500 loss: 2.79016 targ_ctg: 14.83 nnet_ctg: 15.07 Time Elapsed: 24.8
-Itr: 9600 loss: 5.38601 targ_ctg: 15.42 nnet_ctg: 15.65 Time Elapsed: 25.14
-Itr: 9700 loss: 3.85688 targ_ctg: 16.9 nnet_ctg: 16.87 Time Elapsed: 25.56
-Itr: 9800 loss: 3.108 targ_ctg: 15.41 nnet_ctg: 15.47 Time Elapsed: 25.77
-Itr: 9900 loss: 1.63598 targ_ctg: 15.49 nnet_ctg: 15.47 Time Elapsed: 25.95
+Itr: 0, loss: 386.14273, targ_ctg: 17.2, nnet_ctg: 0.03, Time: 0.0
+Itr: 100, loss: 18.30408, targ_ctg: 13.79, nnet_ctg: 15.25, Time: 0.85
+Itr: 200, loss: 34.4807, targ_ctg: 16.37, nnet_ctg: 15.42, Time: 1.08
+Itr: 300, loss: 18.09864, targ_ctg: 15.61, nnet_ctg: 16.83, Time: 1.4
+Itr: 400, loss: 16.65955, targ_ctg: 16.08, nnet_ctg: 15.53, Time: 1.51
+Itr: 500, loss: 19.14378, targ_ctg: 13.93, nnet_ctg: 14.77, Time: 1.12
+Itr: 600, loss: 19.13086, targ_ctg: 17.64, nnet_ctg: 17.58, Time: 1.09
+Itr: 700, loss: 12.86944, targ_ctg: 16.0, nnet_ctg: 16.23, Time: 1.47
+Itr: 800, loss: 17.02895, targ_ctg: 15.28, nnet_ctg: 15.68, Time: 1.06
+Itr: 900, loss: 15.52768, targ_ctg: 15.61, nnet_ctg: 14.95, Time: 1.3
+Itr: 1000, loss: 20.25376, targ_ctg: 14.78, nnet_ctg: 13.9, Time: 0.94
+Itr: 1100, loss: 14.56426, targ_ctg: 14.65, nnet_ctg: 14.36, Time: 0.93
+Itr: 1200, loss: 13.22474, targ_ctg: 15.75, nnet_ctg: 16.7, Time: 0.9
+Itr: 1300, loss: 13.14744, targ_ctg: 15.3, nnet_ctg: 15.26, Time: 0.94
+Itr: 1400, loss: 16.50152, targ_ctg: 15.63, nnet_ctg: 14.99, Time: 1.7
+Itr: 1500, loss: 14.57163, targ_ctg: 15.17, nnet_ctg: 15.04, Time: 1.27
+Itr: 1600, loss: 11.24184, targ_ctg: 13.33, nnet_ctg: 13.83, Time: 1.02
+Itr: 1700, loss: 16.19038, targ_ctg: 14.75, nnet_ctg: 14.36, Time: 2.0
+Itr: 1800, loss: 17.02208, targ_ctg: 15.29, nnet_ctg: 13.64, Time: 1.43
+Itr: 1900, loss: 18.84514, targ_ctg: 16.57, nnet_ctg: 16.11, Time: 2.08
+Itr: 2000, loss: 14.44832, targ_ctg: 15.74, nnet_ctg: 15.98, Time: 1.4
+Itr: 2100, loss: 9.48189, targ_ctg: 15.13, nnet_ctg: 15.12, Time: 2.36
+Itr: 2200, loss: 11.41696, targ_ctg: 15.21, nnet_ctg: 16.51, Time: 1.69
+Itr: 2300, loss: 12.21059, targ_ctg: 14.73, nnet_ctg: 14.75, Time: 1.03
+Itr: 2400, loss: 15.5821, targ_ctg: 15.73, nnet_ctg: 14.83, Time: 1.13
+Itr: 2500, loss: 15.0972, targ_ctg: 16.65, nnet_ctg: 15.82, Time: 0.81
+Itr: 2600, loss: 14.02079, targ_ctg: 15.5, nnet_ctg: 14.93, Time: 1.31
+Itr: 2700, loss: 11.66814, targ_ctg: 14.22, nnet_ctg: 13.76, Time: 2.02
+Itr: 2800, loss: 12.1395, targ_ctg: 15.5, nnet_ctg: 15.58, Time: 1.92
+Itr: 2900, loss: 19.73569, targ_ctg: 15.15, nnet_ctg: 13.24, Time: 1.56
+Itr: 3000, loss: 11.38619, targ_ctg: 15.73, nnet_ctg: 16.39, Time: 1.2
+Itr: 3100, loss: 11.57855, targ_ctg: 14.68, nnet_ctg: 15.85, Time: 1.76
+Itr: 3200, loss: 12.81816, targ_ctg: 15.0, nnet_ctg: 15.18, Time: 1.74
+Itr: 3300, loss: 12.42892, targ_ctg: 14.88, nnet_ctg: 14.64, Time: 1.73
+Itr: 3400, loss: 14.29843, targ_ctg: 16.74, nnet_ctg: 16.12, Time: 1.73
+Itr: 3500, loss: 13.75717, targ_ctg: 15.77, nnet_ctg: 14.59, Time: 1.73
+Itr: 3600, loss: 9.96455, targ_ctg: 15.84, nnet_ctg: 15.81, Time: 1.74
+Itr: 3700, loss: 11.22165, targ_ctg: 15.04, nnet_ctg: 15.32, Time: 1.85
+Itr: 3800, loss: 12.92434, targ_ctg: 17.17, nnet_ctg: 17.57, Time: 1.18
+Itr: 3900, loss: 10.56797, targ_ctg: 14.4, nnet_ctg: 15.68, Time: 1.29
+Itr: 4000, loss: 10.47311, targ_ctg: 16.1, nnet_ctg: 16.79, Time: 1.86
+Itr: 4100, loss: 8.6949, targ_ctg: 15.17, nnet_ctg: 14.74, Time: 1.9
+Itr: 4200, loss: 10.80393, targ_ctg: 16.56, nnet_ctg: 16.32, Time: 2.15
+Itr: 4300, loss: 6.5682, targ_ctg: 14.92, nnet_ctg: 14.76, Time: 1.13
+Itr: 4400, loss: 11.24181, targ_ctg: 15.79, nnet_ctg: 14.83, Time: 1.49
+Itr: 4500, loss: 10.47558, targ_ctg: 13.92, nnet_ctg: 14.64, Time: 1.52
+Itr: 4600, loss: 10.49235, targ_ctg: 13.8, nnet_ctg: 14.33, Time: 1.83
+Itr: 4700, loss: 9.21531, targ_ctg: 15.2, nnet_ctg: 15.12, Time: 1.36
+Itr: 4800, loss: 7.88344, targ_ctg: 13.87, nnet_ctg: 14.21, Time: 1.5
+Itr: 4900, loss: 8.6998, targ_ctg: 15.14, nnet_ctg: 15.38, Time: 1.38
+Itr: 5000, loss: 8.49531, targ_ctg: 17.0, nnet_ctg: 17.14, Time: 1.27
+Itr: 5100, loss: 7.07761, targ_ctg: 16.76, nnet_ctg: 16.43, Time: 1.23
+Itr: 5200, loss: 7.72572, targ_ctg: 15.41, nnet_ctg: 15.49, Time: 0.9
+Itr: 5300, loss: 6.11601, targ_ctg: 14.8, nnet_ctg: 14.74, Time: 0.94
+Itr: 5400, loss: 7.71193, targ_ctg: 16.79, nnet_ctg: 16.65, Time: 0.92
+Itr: 5500, loss: 7.74554, targ_ctg: 14.48, nnet_ctg: 13.43, Time: 1.74
+Itr: 5600, loss: 9.01192, targ_ctg: 15.11, nnet_ctg: 14.86, Time: 1.79
+Itr: 5700, loss: 8.36695, targ_ctg: 15.67, nnet_ctg: 14.99, Time: 1.82
+Itr: 5800, loss: 7.14774, targ_ctg: 15.09, nnet_ctg: 14.51, Time: 1.81
+Itr: 5900, loss: 6.06615, targ_ctg: 16.8, nnet_ctg: 16.8, Time: 1.46
+Itr: 6000, loss: 5.48393, targ_ctg: 14.34, nnet_ctg: 14.84, Time: 1.13
+Itr: 6100, loss: 7.95366, targ_ctg: 15.64, nnet_ctg: 16.76, Time: 0.9
+Itr: 6200, loss: 8.78124, targ_ctg: 15.83, nnet_ctg: 14.68, Time: 0.76
+Itr: 6300, loss: 5.69559, targ_ctg: 16.21, nnet_ctg: 16.98, Time: 0.84
+Itr: 6400, loss: 6.08963, targ_ctg: 15.81, nnet_ctg: 15.92, Time: 0.83
+Itr: 6500, loss: 4.94575, targ_ctg: 16.05, nnet_ctg: 16.31, Time: 0.81
+Itr: 6600, loss: 4.86648, targ_ctg: 15.19, nnet_ctg: 15.57, Time: 0.9
+Itr: 6700, loss: 5.55792, targ_ctg: 14.22, nnet_ctg: 14.56, Time: 1.38
+Itr: 6800, loss: 6.2643, targ_ctg: 15.8, nnet_ctg: 15.69, Time: 0.95
+Itr: 6900, loss: 4.90337, targ_ctg: 18.06, nnet_ctg: 18.35, Time: 0.95
+Itr: 7000, loss: 8.68344, targ_ctg: 14.77, nnet_ctg: 13.46, Time: 0.77
+Itr: 7100, loss: 6.20615, targ_ctg: 15.13, nnet_ctg: 15.71, Time: 0.89
+Itr: 7200, loss: 6.452, targ_ctg: 16.12, nnet_ctg: 16.51, Time: 1.21
+Itr: 7300, loss: 6.17352, targ_ctg: 15.86, nnet_ctg: 16.83, Time: 1.37
+Itr: 7400, loss: 5.03717, targ_ctg: 13.72, nnet_ctg: 14.8, Time: 1.23
+Itr: 7500, loss: 7.81305, targ_ctg: 18.5, nnet_ctg: 17.51, Time: 1.74
+Itr: 7600, loss: 7.98284, targ_ctg: 16.48, nnet_ctg: 16.27, Time: 1.03
+Itr: 7700, loss: 6.24539, targ_ctg: 16.46, nnet_ctg: 16.47, Time: 1.25
+Itr: 7800, loss: 6.78666, targ_ctg: 16.21, nnet_ctg: 15.15, Time: 1.69
+Itr: 7900, loss: 5.90205, targ_ctg: 14.43, nnet_ctg: 13.7, Time: 1.12
+Itr: 8000, loss: 4.59716, targ_ctg: 15.26, nnet_ctg: 14.41, Time: 0.97
+Itr: 8100, loss: 6.77666, targ_ctg: 16.56, nnet_ctg: 15.66, Time: 0.76
+Itr: 8200, loss: 5.12302, targ_ctg: 14.89, nnet_ctg: 14.7, Time: 0.82
+Itr: 8300, loss: 4.16612, targ_ctg: 15.55, nnet_ctg: 15.33, Time: 0.76
+Itr: 8400, loss: 5.83871, targ_ctg: 15.84, nnet_ctg: 15.11, Time: 0.95
+Itr: 8500, loss: 4.27365, targ_ctg: 16.91, nnet_ctg: 16.58, Time: 1.51
+Itr: 8600, loss: 5.11789, targ_ctg: 16.02, nnet_ctg: 16.24, Time: 1.75
+Itr: 8700, loss: 5.40997, targ_ctg: 13.67, nnet_ctg: 13.85, Time: 0.93
+Itr: 8800, loss: 4.40343, targ_ctg: 16.47, nnet_ctg: 16.09, Time: 0.92
+Itr: 8900, loss: 5.1601, targ_ctg: 16.13, nnet_ctg: 16.31, Time: 1.01
+Itr: 9000, loss: 4.75285, targ_ctg: 13.61, nnet_ctg: 13.83, Time: 0.95
+Itr: 9100, loss: 5.25762, targ_ctg: 17.14, nnet_ctg: 16.92, Time: 0.88
+Itr: 9200, loss: 5.57173, targ_ctg: 15.44, nnet_ctg: 14.79, Time: 0.92
+Itr: 9300, loss: 4.56619, targ_ctg: 17.1, nnet_ctg: 17.67, Time: 0.8
+Itr: 9400, loss: 4.69422, targ_ctg: 15.57, nnet_ctg: 15.51, Time: 0.77
+Itr: 9500, loss: 5.02314, targ_ctg: 14.82, nnet_ctg: 14.5, Time: 0.86
+Itr: 9600, loss: 4.98891, targ_ctg: 14.79, nnet_ctg: 15.28, Time: 0.75
+Itr: 9700, loss: 7.61728, targ_ctg: 15.93, nnet_ctg: 15.85, Time: 0.76
+Itr: 9800, loss: 5.37538, targ_ctg: 14.84, nnet_ctg: 14.53, Time: 0.81
+Itr: 9900, loss: 3.43546, targ_ctg: 15.25, nnet_ctg: 15.58, Time: 0.76
 Evaluating DNN
 
-Cost-To-Go: 0, Ave DNN Output: -0.381106, MSE: 0.145242
-Cost-To-Go: 1, Ave DNN Output: 1.096220, MSE: 0.013799
-Cost-To-Go: 2, Ave DNN Output: 0.761918, MSE: 1.618428
-Cost-To-Go: 3, Ave DNN Output: 3.728112, MSE: 2.578658
-Cost-To-Go: 4, Ave DNN Output: 5.145834, MSE: 5.315935
-Cost-To-Go: 5, Ave DNN Output: 6.082452, MSE: 4.858705
-Cost-To-Go: 6, Ave DNN Output: 8.096094, MSE: 10.398531
-Cost-To-Go: 7, Ave DNN Output: 8.910142, MSE: 9.466951
-Cost-To-Go: 8, Ave DNN Output: 9.967551, MSE: 15.189902
-Cost-To-Go: 9, Ave DNN Output: 11.426908, MSE: 19.448370
-Cost-To-Go: 10, Ave DNN Output: 12.567038, MSE: 22.120312
-Cost-To-Go: 11, Ave DNN Output: 13.183476, MSE: 21.066816
-Cost-To-Go: 12, Ave DNN Output: 14.034266, MSE: 23.956825
-Cost-To-Go: 13, Ave DNN Output: 14.533619, MSE: 24.084816
-Cost-To-Go: 14, Ave DNN Output: 15.351761, MSE: 27.072515
-Cost-To-Go: 15, Ave DNN Output: 15.723143, MSE: 24.144876
-Cost-To-Go: 16, Ave DNN Output: 16.570950, MSE: 26.783785
-Cost-To-Go: 17, Ave DNN Output: 16.938606, MSE: 25.991121
-Cost-To-Go: 18, Ave DNN Output: 17.871248, MSE: 26.953226
-Cost-To-Go: 19, Ave DNN Output: 18.241968, MSE: 26.905863
-Cost-To-Go: 20, Ave DNN Output: 19.305906, MSE: 27.605501
-Cost-To-Go: 21, Ave DNN Output: 19.698935, MSE: 28.627758
-Cost-To-Go: 22, Ave DNN Output: 20.719463, MSE: 28.650707
-Cost-To-Go: 23, Ave DNN Output: 21.115610, MSE: 30.778465
-Cost-To-Go: 24, Ave DNN Output: 22.076130, MSE: 31.211035
-Cost-To-Go: 25, Ave DNN Output: 22.569859, MSE: 34.292782
-Cost-To-Go: 26, Ave DNN Output: 23.422085, MSE: 33.174870
-Cost-To-Go: 27, Ave DNN Output: 23.960810, MSE: 40.438477
-Cost-To-Go: 28, Ave DNN Output: 24.629829, MSE: 40.263916
-Cost-To-Go: 29, Ave DNN Output: 25.848558, MSE: 44.399693
-Cost-To-Go: 30, Ave DNN Output: 26.016937, MSE: 46.726112
-Cost-To-Go: 31, Ave DNN Output: 31.261209, MSE: 0.096647
+Cost-To-Go: 0, Ave DNN Output: 0.000000, MSE: 0.000000
+Cost-To-Go: 1, Ave DNN Output: 0.595890, MSE: 0.164659
+Cost-To-Go: 2, Ave DNN Output: 1.849502, MSE: 0.231310
+Cost-To-Go: 3, Ave DNN Output: 2.975616, MSE: 0.077518
+Cost-To-Go: 4, Ave DNN Output: 3.577358, MSE: 0.799990
+Cost-To-Go: 5, Ave DNN Output: 4.849563, MSE: 0.477352
+Cost-To-Go: 6, Ave DNN Output: 5.326773, MSE: 1.274162
+Cost-To-Go: 7, Ave DNN Output: 6.743777, MSE: 0.931154
+Cost-To-Go: 8, Ave DNN Output: 7.666249, MSE: 0.885161
+Cost-To-Go: 9, Ave DNN Output: 9.018987, MSE: 0.865203
+Cost-To-Go: 10, Ave DNN Output: 10.027600, MSE: 1.269017
+Cost-To-Go: 11, Ave DNN Output: 11.333943, MSE: 1.768276
+Cost-To-Go: 12, Ave DNN Output: 12.412319, MSE: 3.003919
+Cost-To-Go: 13, Ave DNN Output: 13.559137, MSE: 3.492694
+Cost-To-Go: 14, Ave DNN Output: 14.545928, MSE: 4.706827
+Cost-To-Go: 15, Ave DNN Output: 15.450583, MSE: 5.256689
+Cost-To-Go: 16, Ave DNN Output: 16.253191, MSE: 6.563718
+Cost-To-Go: 17, Ave DNN Output: 17.152058, MSE: 6.598663
+Cost-To-Go: 18, Ave DNN Output: 17.886179, MSE: 7.728070
+Cost-To-Go: 19, Ave DNN Output: 18.747702, MSE: 7.248080
+Cost-To-Go: 20, Ave DNN Output: 19.508661, MSE: 8.004532
+Cost-To-Go: 21, Ave DNN Output: 20.416147, MSE: 7.072121
+Cost-To-Go: 22, Ave DNN Output: 21.145535, MSE: 7.757068
+Cost-To-Go: 23, Ave DNN Output: 21.982260, MSE: 7.014412
+Cost-To-Go: 24, Ave DNN Output: 22.699320, MSE: 8.023804
+Cost-To-Go: 25, Ave DNN Output: 23.516752, MSE: 7.397837
+Cost-To-Go: 26, Ave DNN Output: 24.266518, MSE: 8.450958
+Cost-To-Go: 27, Ave DNN Output: 25.093128, MSE: 8.041571
+Cost-To-Go: 28, Ave DNN Output: 25.899609, MSE: 8.918910
+Cost-To-Go: 29, Ave DNN Output: 27.176069, MSE: 5.979139
+Cost-To-Go: 30, Ave DNN Output: 28.424995, MSE: 3.913244
+Cost-To-Go: 31, Ave DNN Output: 30.507900, MSE: 0.318005
