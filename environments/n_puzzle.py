@@ -42,6 +42,8 @@ class NPuzzle(Environment):
         # Next state ops
         self.swap_zero_idxs: np.ndarray = self._get_swap_zero_idxs(self.dim)
 
+        self.one_hot_convert = np.eye(self.dim ** 2).astype(np.uint8)
+
     def next_state(self, states: List[NPuzzleState], action: int) -> Tuple[List[NPuzzleState], List[float]]:
         # initialize
         states_np = np.stack([x.tiles for x in states], axis=0)
@@ -82,48 +84,14 @@ class NPuzzle(Environment):
 
     def state_to_nnet_input(self, states: List[NPuzzleState]) -> np.ndarray:
         states_np = np.stack([x.tiles for x in states], axis=0)
-        states_np = states_np.astype(self.dtype)
+        states_nnet = self.one_hot_convert[states_np].reshape(states_np.shape[0], -1)
 
-        return states_np
+        states_nnet = states_nnet.astype(np.uint8)
+
+        return states_nnet
 
     def get_num_moves(self) -> int:
         return len(self.moves)
-
-    def get_nnet_model(self) -> nn.Module:
-        # NN architecture
-        input_size = 9  # dimension of 8-puzzle state
-        hidden_layer_size = 250
-        output_size = 1  # dimension of output (predicting a singular value, cost-to-go)
-
-        # Define neural network (here just a simple multilayer perceptron)
-        class DNN(nn.Module):
-
-            def __init__(self, D_in, H, D_out):
-                super(DNN, self).__init__()
-
-                self.fc1 = nn.Linear(D_in, H)  # input layer -> hidden layer 1
-                self.relu1 = nn.ReLU()
-                self.fc2 = nn.Linear(H, H)  # hidden layer 1 -> hidden layer 2
-                self.relu2 = nn.ReLU()
-                self.fc3 = nn.Linear(H, H)  # hidden layer 2 -> hidden layer 3
-                self.relu3 = nn.ReLU()
-                self.fc4 = nn.Linear(H, D_out)  # hidden layer 3 -> output layer
-                self.relu4 = nn.ReLU()
-
-
-            def forward(self, x):
-                x = self.fc1(x.float())  # convert input to float to avoid casting errors
-                x = self.relu1(x)
-                x = self.fc2(x)
-                x = self.relu2(x)
-                x = self.fc3(x)
-                x = self.relu3(x)
-                x = self.fc4(x)
-                return self.relu4(x)
-
-
-        return DNN(input_size, hidden_layer_size, output_size)
-
 
     def generate_states(self, num_states: int, backwards_range: Tuple[int, int]) -> Tuple[List[NPuzzleState],
                                                                                           List[int]]:
