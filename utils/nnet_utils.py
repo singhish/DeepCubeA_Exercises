@@ -5,7 +5,6 @@ from collections import OrderedDict
 import re
 from torch import Tensor
 
-from time import time  # for logging
 
 def states_nnet_to_pytorch_input(states_nnet: np.ndarray, device) -> Tensor:
     states_nnet_tensor = torch.tensor(states_nnet, device=device)

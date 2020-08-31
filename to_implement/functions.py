@@ -1,8 +1,8 @@
 from torch import nn
 import numpy as np
 
-import torch
-from time import time
+import torch  # for adam optimizer
+from time import time  # for logging
 
 
 def get_nnet_model() -> nn.Module:
@@ -10,41 +10,36 @@ def get_nnet_model() -> nn.Module:
 
     @return: neural network model
     """
-    input_size = 9  # dimension of 8-puzzle state
-    hidden_layer_size = 250
+    input_size = 81  # dimension of 8-puzzle state
+    hidden_layer_size = 250    # size of each hidden layer
     output_size = 1  # dimension of output (predicting a singular value, cost-to-go)
 
-    # Define neural network (here just a simple multilayer perceptron)
+    # Define neural network (using Sequential API as its just a simple multilayer perceptron)
     class DNN(nn.Module):
-
         def __init__(self, D_in, H, D_out):
             super(DNN, self).__init__()
 
-            self.fc1 = nn.Linear(D_in, H)  # input layer -> hidden layer 1
-            self.relu1 = nn.ReLU()
-            self.fc2 = nn.Linear(H, H)  # hidden layer 1 -> hidden layer 2
-            self.relu2 = nn.ReLU()
-            self.fc3 = nn.Linear(H, H)  # hidden layer 2 -> hidden layer 3
-            self.relu3 = nn.ReLU()
-            self.fc4 = nn.Linear(H, D_out)  # hidden layer 3 -> output layer
-            self.relu4 = nn.ReLU()
+            self.layers = nn.Sequential(
+                nn.Linear(D_in, H),  # input layer -> hidden layer 1
+                nn.ReLU(),
+                nn.Linear(H, H),     # hidden layer 1 -> hidden layer 2
+                nn.ReLU(),
+                nn.Linear(H, H),     # hidden layer 2 -> hidden layer 3
+                nn.ReLU(),
+                nn.Linear(H, D_out), # hidden layer 3 -> output layer
+                nn.ReLU()            # cost-to-go should be non-negative
+            )
 
         def forward(self, x):
-            x = self.fc1(x.float())  # convert input to float to avoid casting errors
-            x = self.relu1(x)
-            x = self.fc2(x)
-            x = self.relu2(x)
-            x = self.fc3(x)
-            x = self.relu3(x)
-            x = self.fc4(x)
-            return self.relu4(x)
+            x = x.float()
+            x = self.layers(x)
+            return x
 
     return DNN(input_size, hidden_layer_size, output_size)
 
 
 def train_nnet(nnet: nn.Module, states_nnet: np.ndarray, outputs: np.ndarray, batch_size: int, num_itrs: int,
                train_itr: int):
-
     print_skip = 100
 
     loss_fn = nn.MSELoss()
