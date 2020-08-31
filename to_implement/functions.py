@@ -14,7 +14,7 @@ def get_nnet_model() -> nn.Module:
     hidden_layer_size = 250    # size of each hidden layer
     output_size = 1  # dimension of output (predicting a singular value, cost-to-go)
 
-    # Define neural network (using Sequential API as its just a simple multilayer perceptron)
+    # Define neural network (using Sequential API as it is just a simple multilayer perceptron)
     class DNN(nn.Module):
         def __init__(self, D_in, H, D_out):
             super(DNN, self).__init__()
